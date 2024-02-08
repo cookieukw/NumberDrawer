@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  margin: 10px;
+  transition: all 0.5s ease;
+  color: white;
+  background-color: #212121;
+  transition: transform 0.5s ease;
+}
+
+#placeholder {
+  text-align: center;
+  font-weight: bold;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+}
+
+#globalContainer {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background: #121212;
+}
+
+button {
+  position: relative;
+  overflow: hidden;
+  background-color: #0d47a1;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin: 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1565c0;
+}
+
+#sortUser {
+  background-color: #1565c0;
+}
+
+#sortUser:hover {
+  background-color: #0d47a1;
+}
+
+#circle1 {
+  background: #1976d2;
+}
+
+#circle2 {
+  background: #424242;
+}
+
+#circle3 {
+  background: #2196f3;
+}
+
+#circle4 {
+  background: #ff9800;
+}
+
+#circle5 {
+  background: #f4511e;
+}
+
+#circle6 {
+  background: #ba68c8;
+}
+
+.circle.animate {
+  animation: shakeCircle 0.1s infinite alternate-reverse;
+}
+
+#numCirclesSelect {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+  margin: 0 20px;
+}
+
+#numCirclesSelect option {
+  margin: 0 20px;
+  background-color: #fff;
+  color: #333;
+}
+
+@keyframes shakeCircle {
+  0% {
+    transform: translateY(-2px);
+  }
+
+  100% {
+    transform: translateY(2px);
+  }
+}
