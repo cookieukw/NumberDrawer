@@ -1,7 +1,9 @@
 # Site de Sorteio de Números
 
-Este site é uma aplicação web que permite realizar sorteios de números aleatórios que pode ser útil para jogar na megasena caso tenha dúvidas dm escolher seus números. :)
- 
+Este site é uma aplicação web que permite realizar sorteios de números aleatórios que pode ser útil para jogar na megasena caso tenha dúvidas em escolher seus números. :)
+
+Teste agora mesmo [clicando aqui](https://cookieukw.github.io/NumberDrawer/sort.html)
+
 Ele possui as seguintes funcionalidades:
 
 ## Funcionalidades
@@ -22,6 +24,15 @@ Ele possui as seguintes funcionalidades:
 2. Selecione o número de sorteios desejado no menu dropdown.
 3. Clique no botão "Sortear" para iniciar o sorteio.
 4. Aguarde até que os números sejam sorteados e os resultados sejam exibidos.
+
+## Veja algumas imagens:
+
+![um site com bolinhas de sorteio](./images/preview1.jpg "website")
+
+![um site com bolinhas de sorteio](./images/preview2.jpg "website")
+
+![um site com bolinhas de sorteio](./images/preview3.jpg "website")
+
 
 ## Tecnologias Utilizadas
 
