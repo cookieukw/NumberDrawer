@@ -2,7 +2,7 @@
 
 Este site é uma aplicação web que permite realizar sorteios de números aleatórios que pode ser útil para jogar na megasena caso tenha dúvidas em escolher seus números. :)
 
-Teste agora mesmo [clicando aqui](https://cookieukw.github.io/NumberDrawer/sort.html)
+Teste agora mesmo [clicando aqui](https://number-drawer.vercel.app/)
 
 Ele possui as seguintes funcionalidades:
 
